@@ -9,3 +9,18 @@ botao.addEventListener("click", function () {
     botao.textContent = "Modo escuro";
   }
 });
+const habilidades = [
+  "Fotogrametria",
+  "GIS",
+  "Automação Industrial",
+  "Drones",
+  "Python",
+];
+
+const lista = document.getElementById("lista-habilidades");
+
+habilidades.forEach(function (habilidade) {
+  const item = document.createElement("li");
+  item.textContent = habilidade;
+  lista.appendChild(item);
+});
