@@ -95,3 +95,7 @@ footer {
   color: #888888;
   border-top: 1px solid #dddddd;
 }
+body.modo-escuro {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
